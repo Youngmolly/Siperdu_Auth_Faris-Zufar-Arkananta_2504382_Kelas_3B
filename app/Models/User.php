@@ -21,7 +21,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'role', // fungsinya untuk seeder memasukkan data atau seeding data
+        'role',
     ];
 
     public function isAdmin(): bool
